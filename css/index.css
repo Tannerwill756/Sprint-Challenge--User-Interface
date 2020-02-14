@@ -48,7 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border:1px solid pink;
+    max-width:100%;
 }
 
 html, body {
@@ -127,8 +127,6 @@ p {
     align-items: center;
     justify-content: center;
 }
- /* Box colors */
-
 
 .bottom-content {
     display: flex;
@@ -171,20 +169,85 @@ footer nav a {
 
 .about-section1{
     display:flex;
-    justify-content:center;
-    align-items: center;
+    justify-content: space-between;
+    padding-bottom:2%;
+    padding-top:3%;
 }
-
+.about-section1 div{
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:3%;
+}
 .about-section2{
     display:flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:space-between;
     margin-bottom:1%;
-    padding-bottom:1%;
+    padding-bottom:3%;
+}
+.about-section2 div{
+    width:48%;
     border-bottom:1px dashed black;
+    padding-bottom:5%;
 }
 
-.work-together{
-    width:800px;
-    margin:auto;
+.about-section1 div a{
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 1% 3% 1% 3%;
+    color:black;   
 }
+.about-section1 div p{
+    margin-bottom: 3%;
+}
+.about-section2 div a{
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 1% 3% 1% 3%;
+    color:black;
+    margin-top:3%;    
+}
+.about-section2 div p{
+    margin-bottom:3%;
+}
+.about-section2 .collaboration{
+    
+    border-bottom:1px dashed black;
+    
+}
+.work-together{
+    padding-bottom:2%;
+}
+ /* Box colors */
+ #box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+/* End box colors*/
